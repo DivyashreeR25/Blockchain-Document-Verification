@@ -25,8 +25,7 @@ A decentralized web application for secure **document issuance and verification*
 
 - Node.js & npm
 - MetaMask wallet
-- Hardhat / Ganache (for local blockchain dev)
-- Git
+- Hardhat (for local blockchain dev)
 
 ---
 
