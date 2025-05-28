@@ -29,9 +29,20 @@ A decentralized web application for secure **document issuance and verification*
 
 ---
 
-### 1. Clone the Repository
+git clone https://github.com/your-username/blockchain-project.git
+cd blockchain-project
+npm install
 
-```bash
-git clone https://github.com/your-username/blockvault.git
-cd blockvault
-
+🚀 Running the Project Manually
+Step 1: Start the Hardhat Node
+bash
+cd blockchain
+npx hardhat node
+Step 2: Deploy the Smart Contract (new terminal)
+bash
+npx hardhat run ../scripts/deploy.js --network localhost
+Step 3: Start the Frontend
+bash
+cd ../frontend
+npm install
+npm run dev
